@@ -10,6 +10,8 @@ public class MainViewModel : NotifyPropertyBase
     public MainViewModel()
     {
         DataModels = GetDataModels();
+
+        // 網路上看到的解法，使用 CollectionViewSource
         var view = CollectionViewSource.GetDefaultView(DataModels);
         view.CollectionChanged += (_, _) => OnPropertyChanged(nameof(Total));
     }
