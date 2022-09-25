@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridBindingTraining", "DataGridBindingTraining\DataGridBindingTraining.csproj", "{C52618A5-27D9-498F-87C9-E90F8BC2007A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingLibrary", "BindingLibrary\BindingLibrary.csproj", "{60B956BA-D492-4F46-A3DA-FDBF6A1C5735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C52618A5-27D9-498F-87C9-E90F8BC2007A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52618A5-27D9-498F-87C9-E90F8BC2007A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52618A5-27D9-498F-87C9-E90F8BC2007A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52618A5-27D9-498F-87C9-E90F8BC2007A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B956BA-D492-4F46-A3DA-FDBF6A1C5735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B956BA-D492-4F46-A3DA-FDBF6A1C5735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B956BA-D492-4F46-A3DA-FDBF6A1C5735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B956BA-D492-4F46-A3DA-FDBF6A1C5735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E0EDC47-896C-4D21-A0F9-17E1B9A18027}
+	EndGlobalSection
+EndGlobal
